@@ -25,3 +25,6 @@ class Cancion:
             dic["duracion"],
             dic["popularidad"]
         )
+
+    def __str__(self):
+        return f"{self.titulo} - {self.artista} ({self.popularidad})"
